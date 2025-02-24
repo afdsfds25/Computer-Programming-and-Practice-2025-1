@@ -7,8 +7,12 @@
 */
 
 /* To Do: 5를 결과값으로 반환하는 five 함수를 정의하기 */
+/* 5를 반환하는 함수 */
+int five() {
+	return 5;
+}
 
 int main() {
 	/* To Do: 결과값을 five 함수의 실행 결과로 바꾸기 */
-	return 0;
+	return five(); /* 5 반환 */
 }
